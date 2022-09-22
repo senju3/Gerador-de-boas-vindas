@@ -1,0 +1,30 @@
+Lógica da aplicação
+    -> Quero pedir o nome do usuário(x) e desejar boas-vindas para "x".
+        Quais são os dados de entrada necessários ?
+         - Nome do usuário
+        O que devo fazer com estes dados ?
+         - Após receber o nome do usuário, eu devo exibir uma mensagem que diz nome-do-usuário + seja bem-vindo.
+        Quais são as restrições desse problema ?
+         -Devo possuir um nome para exibir e deseja boas-vindas
+        Qual é o resultado esperado ?
+         -uma mensagem que exibe o nome-do-usuário + a mensagem "seja bem-vindo".
+        Qual é a sequência de passos a serem feitas para chegar ao resultado esperado ?
+         - Input nome_usuário
+         - print nome_usuário + "seja bem-vindo"
+
+
+Códigos usados na aplicação
+    - .addEventListener('click', function())
+        Para captar evento de click e efetuar uma função
+    - .value
+        Para pegar os valores dos inputs
+    - Concatenação 
+        `texto ${variável}`
+    - elemento.innerText =
+        Para inserir texto/valor do elemento ou modificar
+    - document.createElement('elemento')
+        Para criar um elemento diretamente do js
+    - pai.appendChild(tal_elemento)
+        Para adicionar tal elemento como filho 
+    - pai.removeChild(tal_elemento)
+        Para remove/deletar tal elemento como filho
